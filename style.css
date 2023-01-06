@@ -15,7 +15,18 @@
     background-color: #FD6E0A;
     border: 0;
     padding: 18px 35px;
-
+}
+.button-2{
+    color: #FD6E0A;
+    font-size:20px  ;
+    font-weight:700 ;
+    height: 64px ;
+    border-radius: 5px;
+    background-color: white;
+    border-width: 3px;
+    border-color: #FD6E0A;
+    margin-left: 30px;
+    padding: 18px 35px;
 
 }
 /* header and nav styles */ 
@@ -68,4 +79,52 @@ nav ul{
     background-image: url("images/header_bg.png"), url("images/developer.png") ;
     background-repeat: no-repeat;
     background-position: bottom right, left;
+}
+
+/*  MAIN SECTION*/
+main{
+    max-width: 1140 px;
+    margin: 0 auto;
+    
+}
+/* about */
+.about{
+    text-align: center;
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+
+ 
+}
+
+.about-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+.section-des{
+    font-size: 20px;
+    color: #757575;
+    margin-bottom:30px ;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+
+}
+.info-title{
+    font-size: 20px;
+    color:#757575 ;
+    font-weight:400 ;
+}
+.info-description{
+    font-size: 20px;
+    color:#474747 ;
+    font-weight:700 ;
+
 }
